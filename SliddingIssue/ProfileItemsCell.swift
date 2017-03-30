@@ -36,14 +36,7 @@ class ProfileItemsCell: BaseCell , UICollectionViewDataSource, UICollectionViewD
     }
     
     //Mark: Var to access the other variable from the ListingMenu Cell
-    lazy var listingBar: ListingMenuCell = {
-        let lm = ListingMenuCell()
-        lm.profileItemCell = self
-        
-        
-        // print("lm is: \(lm)")
-        return lm
-    }()
+    weak var listingBar: ListingMenuCell?;
     
     
     
@@ -55,7 +48,7 @@ class ProfileItemsCell: BaseCell , UICollectionViewDataSource, UICollectionViewD
         
         let xScrollValue = scrollView.contentOffset.x
         
-        listingBar.horizontalBarLeftAnchorConstraint?.constant = xScrollValue / 3
+        listingBar?.horizontalBarLeftAnchorConstraint?.constant = xScrollValue / 3
         
         // print("ListingBar menu: \(listingBar.horizontalBarLeftAnchorConstraint?.constant)")
         
@@ -72,7 +65,7 @@ class ProfileItemsCell: BaseCell , UICollectionViewDataSource, UICollectionViewD
         
         
         /*********************** With this it will crash ********************************************/
-        listingBar.listingMenuCV.selectItem(at: indexPath, animated: true, scrollPosition: UICollectionViewScrollPosition())
+        listingBar?.listingMenuCV.selectItem(at: indexPath, animated: true, scrollPosition: UICollectionViewScrollPosition())
         
         // print("The menu bar list: \(listingBar.listingMenuCV)")
         

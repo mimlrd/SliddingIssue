@@ -11,8 +11,6 @@ import UIKit
 
 extension ProfileVC: UICollectionViewDataSource, UICollectionViewDelegate , UICollectionViewDelegateFlowLayout   {
     
-    
-    
     func numberOfSections(in collectionView: UICollectionView) -> Int {
         
         return 1
@@ -58,6 +56,8 @@ extension ProfileVC: UICollectionViewDataSource, UICollectionViewDelegate , UICo
             let menuCell = collectionView.dequeueReusableCell(withReuseIdentifier: profileMenuCell, for: indexPath) as! ListingMenuCell
             
             menuCell.titles = ["My Listing","Favs","Sold"]
+
+            self.listingMenuCell = menuCell;
             
             print("+++++++++++= Calling setup +++++++++++++==")
             
@@ -72,6 +72,8 @@ extension ProfileVC: UICollectionViewDataSource, UICollectionViewDelegate , UICo
             let itemsCell = collectionView.dequeueReusableCell(withReuseIdentifier: profileItemsCell, for: indexPath) as! ProfileItemsCell
             
             //itemsCell.setupViews()
+
+            itemsCell.listingBar = self.listingMenuCell;
             
             return itemsCell
             

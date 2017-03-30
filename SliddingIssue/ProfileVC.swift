@@ -12,9 +12,10 @@ class ProfileVC: UIViewController {
     
 
     @IBOutlet weak var profileCollectionView: UICollectionView!
-    
     @IBOutlet var topBarView: UIView!
-    
+    weak var listingMenuCell : ListingMenuCell?
+
+
     let profileCell1 = "profileCell1"
     let profileCell2 = "profileCell2"
     let profileHeaderCell = "profileHeaderCell"

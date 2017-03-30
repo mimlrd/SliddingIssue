@@ -60,7 +60,8 @@ class ListingMenuCell: BaseCell, UICollectionViewDelegate , UICollectionViewData
         
         self.listingMenuCV?.delegate = self
         self.listingMenuCV?.dataSource = self
-        
+
+        print("**** the listingMenuCV: \(self.listingMenuCV)");
         print("**** the delegate: \(self.listingMenuCV?.delegate)")
         print("**** the datasource: \(self.listingMenuCV?.dataSource)")
         
