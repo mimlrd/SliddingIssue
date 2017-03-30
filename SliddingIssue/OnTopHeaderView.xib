@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="profileHeaderCell" id="Cxu-Er-lOr" customClass="OnTopHeaderView" customModule="SliddingIssue" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="346"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="playingKids" translatesAutoresizingMaskIntoConstraints="NO" id="oYr-RY-f1w">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="303"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w7W-cD-vDJ">
+                    <rect key="frame" x="279" y="271" width="25" height="25"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="25" id="0M1-nB-eTY"/>
+                        <constraint firstAttribute="width" constant="25" id="A6q-AD-iYP"/>
+                    </constraints>
+                    <state key="normal" image="heart"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y22-ea-J4e">
+                    <rect key="frame" x="16" y="271" width="25" height="25"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="25" id="YjG-id-DUw"/>
+                        <constraint firstAttribute="width" constant="25" id="uFt-4r-tU0"/>
+                    </constraints>
+                    <state key="normal" image="heart"/>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rounedPic" translatesAutoresizingMaskIntoConstraints="NO" id="jwR-kQ-yos">
+                    <rect key="frame" x="120" y="261" width="80" height="80"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="80" id="j4g-vr-lUx"/>
+                        <constraint firstAttribute="width" constant="80" id="qJM-8T-5SK"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="oYr-RY-f1w" secondAttribute="trailing" id="FcZ-U5-ItX"/>
+                <constraint firstAttribute="bottom" secondItem="oYr-RY-f1w" secondAttribute="bottom" constant="43" id="G4w-7p-8o7"/>
+                <constraint firstItem="y22-ea-J4e" firstAttribute="top" secondItem="oYr-RY-f1w" secondAttribute="bottom" constant="-32" id="Lwg-pq-7wX"/>
+                <constraint firstItem="oYr-RY-f1w" firstAttribute="leading" secondItem="Cxu-Er-lOr" secondAttribute="leading" id="We5-j3-dAW"/>
+                <constraint firstAttribute="trailing" secondItem="w7W-cD-vDJ" secondAttribute="trailing" constant="16" id="YnG-4U-QyP"/>
+                <constraint firstItem="oYr-RY-f1w" firstAttribute="top" secondItem="Cxu-Er-lOr" secondAttribute="top" id="ZOE-hM-Ngt"/>
+                <constraint firstItem="w7W-cD-vDJ" firstAttribute="top" secondItem="oYr-RY-f1w" secondAttribute="bottom" constant="-32" id="ren-Eh-RLj"/>
+                <constraint firstAttribute="bottom" secondItem="jwR-kQ-yos" secondAttribute="bottom" constant="5" id="rmO-43-h2t"/>
+                <constraint firstItem="y22-ea-J4e" firstAttribute="leading" secondItem="Cxu-Er-lOr" secondAttribute="leading" constant="16" id="rp7-RS-cpg"/>
+                <constraint firstItem="jwR-kQ-yos" firstAttribute="centerX" secondItem="Cxu-Er-lOr" secondAttribute="centerX" id="yJr-BS-1oD"/>
+            </constraints>
+            <connections>
+                <outlet property="headerBgImageView" destination="oYr-RY-f1w" id="RWw-yw-pUZ"/>
+                <outlet property="likeBtn" destination="w7W-cD-vDJ" id="jfI-Ly-2Yx"/>
+                <outlet property="profileImageView" destination="jwR-kQ-yos" id="SPN-xK-mw4"/>
+                <outlet property="settingBtn" destination="y22-ea-J4e" id="Q75-jd-z3m"/>
+            </connections>
+            <point key="canvasLocation" x="49" y="30"/>
+        </collectionReusableView>
+    </objects>
+    <resources>
+        <image name="heart" width="16" height="16"/>
+        <image name="playingKids" width="16" height="16"/>
+        <image name="rounedPic" width="16" height="16"/>
+    </resources>
+</document>

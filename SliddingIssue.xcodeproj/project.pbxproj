@@ -8,22 +8,56 @@
 
 /* Begin PBXBuildFile section */
 		041AA4AB1E8D417700050CC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041AA4AA1E8D417700050CC7 /* AppDelegate.swift */; };
-		041AA4AD1E8D417700050CC7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041AA4AC1E8D417700050CC7 /* ViewController.swift */; };
+		041AA4AD1E8D417700050CC7 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041AA4AC1E8D417700050CC7 /* ProfileVC.swift */; };
 		041AA4B01E8D417700050CC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041AA4AE1E8D417700050CC7 /* Main.storyboard */; };
 		041AA4B31E8D417700050CC7 /* SliddingIssue.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 041AA4B11E8D417700050CC7 /* SliddingIssue.xcdatamodeld */; };
 		041AA4B51E8D417700050CC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 041AA4B41E8D417700050CC7 /* Assets.xcassets */; };
 		041AA4B81E8D417700050CC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041AA4B61E8D417700050CC7 /* LaunchScreen.storyboard */; };
+		041AA4C11E8D432100050CC7 /* ProfileExtenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041AA4C01E8D432100050CC7 /* ProfileExtenstion.swift */; };
+		041AA4C51E8D441B00050CC7 /* OnTopHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041AA4C31E8D441B00050CC7 /* OnTopHeaderView.swift */; };
+		041AA4C61E8D441B00050CC7 /* OnTopHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 041AA4C41E8D441B00050CC7 /* OnTopHeaderView.xib */; };
+		041AA4C91E8D44B800050CC7 /* ProfileDetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041AA4C71E8D44B800050CC7 /* ProfileDetailsCell.swift */; };
+		041AA4CA1E8D44B800050CC7 /* ProfileDetailsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 041AA4C81E8D44B800050CC7 /* ProfileDetailsCell.xib */; };
+		041AA4CD1E8D44F200050CC7 /* ContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041AA4CB1E8D44F200050CC7 /* ContactCell.swift */; };
+		041AA4CE1E8D44F200050CC7 /* ContactCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 041AA4CC1E8D44F200050CC7 /* ContactCell.xib */; };
+		041AA4D11E8D456800050CC7 /* ListingMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041AA4CF1E8D456800050CC7 /* ListingMenuCell.swift */; };
+		041AA4D21E8D456800050CC7 /* ListingMenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 041AA4D01E8D456800050CC7 /* ListingMenuCell.xib */; };
+		041AA4D51E8D459200050CC7 /* ProfileMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041AA4D31E8D459200050CC7 /* ProfileMenuCell.swift */; };
+		041AA4D61E8D459200050CC7 /* ProfileMenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 041AA4D41E8D459200050CC7 /* ProfileMenuCell.xib */; };
+		041AA4D91E8D45E400050CC7 /* ProfileItemsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041AA4D71E8D45E400050CC7 /* ProfileItemsCell.swift */; };
+		041AA4DA1E8D45E400050CC7 /* ProfileItemsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 041AA4D81E8D45E400050CC7 /* ProfileItemsCell.xib */; };
+		041AA4DC1E8D464100050CC7 /* BaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041AA4DB1E8D464100050CC7 /* BaseCell.swift */; };
+		041AA4DE1E8D46B800050CC7 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041AA4DD1E8D46B800050CC7 /* Helpers.swift */; };
+		041AA4E11E8D4A9100050CC7 /* MainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041AA4DF1E8D4A9100050CC7 /* MainCell.swift */; };
+		041AA4E21E8D4A9100050CC7 /* MainCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 041AA4E01E8D4A9100050CC7 /* MainCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		041AA4A71E8D417700050CC7 /* SliddingIssue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SliddingIssue.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		041AA4AA1E8D417700050CC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		041AA4AC1E8D417700050CC7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		041AA4AC1E8D417700050CC7 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
 		041AA4AF1E8D417700050CC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		041AA4B21E8D417700050CC7 /* SliddingIssue.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SliddingIssue.xcdatamodel; sourceTree = "<group>"; };
 		041AA4B41E8D417700050CC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		041AA4B71E8D417700050CC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		041AA4B91E8D417700050CC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		041AA4C01E8D432100050CC7 /* ProfileExtenstion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileExtenstion.swift; sourceTree = "<group>"; };
+		041AA4C31E8D441B00050CC7 /* OnTopHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnTopHeaderView.swift; sourceTree = "<group>"; };
+		041AA4C41E8D441B00050CC7 /* OnTopHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OnTopHeaderView.xib; sourceTree = "<group>"; };
+		041AA4C71E8D44B800050CC7 /* ProfileDetailsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileDetailsCell.swift; sourceTree = "<group>"; };
+		041AA4C81E8D44B800050CC7 /* ProfileDetailsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileDetailsCell.xib; sourceTree = "<group>"; };
+		041AA4CB1E8D44F200050CC7 /* ContactCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactCell.swift; sourceTree = "<group>"; };
+		041AA4CC1E8D44F200050CC7 /* ContactCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContactCell.xib; sourceTree = "<group>"; };
+		041AA4CF1E8D456800050CC7 /* ListingMenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListingMenuCell.swift; sourceTree = "<group>"; };
+		041AA4D01E8D456800050CC7 /* ListingMenuCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListingMenuCell.xib; sourceTree = "<group>"; };
+		041AA4D31E8D459200050CC7 /* ProfileMenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileMenuCell.swift; sourceTree = "<group>"; };
+		041AA4D41E8D459200050CC7 /* ProfileMenuCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileMenuCell.xib; sourceTree = "<group>"; };
+		041AA4D71E8D45E400050CC7 /* ProfileItemsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileItemsCell.swift; sourceTree = "<group>"; };
+		041AA4D81E8D45E400050CC7 /* ProfileItemsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileItemsCell.xib; sourceTree = "<group>"; };
+		041AA4DB1E8D464100050CC7 /* BaseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCell.swift; sourceTree = "<group>"; };
+		041AA4DD1E8D46B800050CC7 /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		041AA4DF1E8D4A9100050CC7 /* MainCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainCell.swift; sourceTree = "<group>"; };
+		041AA4E01E8D4A9100050CC7 /* MainCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +90,10 @@
 		041AA4A91E8D417700050CC7 /* SliddingIssue */ = {
 			isa = PBXGroup;
 			children = (
+				041AA4C21E8D43C600050CC7 /* View */,
+				041AA4BF1E8D430300050CC7 /* Extension */,
 				041AA4AA1E8D417700050CC7 /* AppDelegate.swift */,
-				041AA4AC1E8D417700050CC7 /* ViewController.swift */,
+				041AA4AC1E8D417700050CC7 /* ProfileVC.swift */,
 				041AA4AE1E8D417700050CC7 /* Main.storyboard */,
 				041AA4B41E8D417700050CC7 /* Assets.xcassets */,
 				041AA4B61E8D417700050CC7 /* LaunchScreen.storyboard */,
@@ -65,6 +101,37 @@
 				041AA4B11E8D417700050CC7 /* SliddingIssue.xcdatamodeld */,
 			);
 			path = SliddingIssue;
+			sourceTree = "<group>";
+		};
+		041AA4BF1E8D430300050CC7 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				041AA4C01E8D432100050CC7 /* ProfileExtenstion.swift */,
+				041AA4DB1E8D464100050CC7 /* BaseCell.swift */,
+				041AA4DD1E8D46B800050CC7 /* Helpers.swift */,
+			);
+			name = Extension;
+			sourceTree = "<group>";
+		};
+		041AA4C21E8D43C600050CC7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				041AA4C31E8D441B00050CC7 /* OnTopHeaderView.swift */,
+				041AA4C41E8D441B00050CC7 /* OnTopHeaderView.xib */,
+				041AA4C71E8D44B800050CC7 /* ProfileDetailsCell.swift */,
+				041AA4C81E8D44B800050CC7 /* ProfileDetailsCell.xib */,
+				041AA4CB1E8D44F200050CC7 /* ContactCell.swift */,
+				041AA4CC1E8D44F200050CC7 /* ContactCell.xib */,
+				041AA4CF1E8D456800050CC7 /* ListingMenuCell.swift */,
+				041AA4D01E8D456800050CC7 /* ListingMenuCell.xib */,
+				041AA4D31E8D459200050CC7 /* ProfileMenuCell.swift */,
+				041AA4D41E8D459200050CC7 /* ProfileMenuCell.xib */,
+				041AA4D71E8D45E400050CC7 /* ProfileItemsCell.swift */,
+				041AA4D81E8D45E400050CC7 /* ProfileItemsCell.xib */,
+				041AA4DF1E8D4A9100050CC7 /* MainCell.swift */,
+				041AA4E01E8D4A9100050CC7 /* MainCell.xib */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,8 +194,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				041AA4CE1E8D44F200050CC7 /* ContactCell.xib in Resources */,
+				041AA4C61E8D441B00050CC7 /* OnTopHeaderView.xib in Resources */,
+				041AA4D61E8D459200050CC7 /* ProfileMenuCell.xib in Resources */,
+				041AA4CA1E8D44B800050CC7 /* ProfileDetailsCell.xib in Resources */,
+				041AA4E21E8D4A9100050CC7 /* MainCell.xib in Resources */,
 				041AA4B81E8D417700050CC7 /* LaunchScreen.storyboard in Resources */,
 				041AA4B51E8D417700050CC7 /* Assets.xcassets in Resources */,
+				041AA4D21E8D456800050CC7 /* ListingMenuCell.xib in Resources */,
+				041AA4DA1E8D45E400050CC7 /* ProfileItemsCell.xib in Resources */,
 				041AA4B01E8D417700050CC7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,9 +214,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				041AA4AD1E8D417700050CC7 /* ViewController.swift in Sources */,
+				041AA4C11E8D432100050CC7 /* ProfileExtenstion.swift in Sources */,
+				041AA4D51E8D459200050CC7 /* ProfileMenuCell.swift in Sources */,
+				041AA4AD1E8D417700050CC7 /* ProfileVC.swift in Sources */,
+				041AA4C91E8D44B800050CC7 /* ProfileDetailsCell.swift in Sources */,
 				041AA4AB1E8D417700050CC7 /* AppDelegate.swift in Sources */,
+				041AA4E11E8D4A9100050CC7 /* MainCell.swift in Sources */,
 				041AA4B31E8D417700050CC7 /* SliddingIssue.xcdatamodeld in Sources */,
+				041AA4CD1E8D44F200050CC7 /* ContactCell.swift in Sources */,
+				041AA4DE1E8D46B800050CC7 /* Helpers.swift in Sources */,
+				041AA4DC1E8D464100050CC7 /* BaseCell.swift in Sources */,
+				041AA4C51E8D441B00050CC7 /* OnTopHeaderView.swift in Sources */,
+				041AA4D91E8D45E400050CC7 /* ProfileItemsCell.swift in Sources */,
+				041AA4D11E8D456800050CC7 /* ListingMenuCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +390,7 @@
 				041AA4BE1E8D417700050CC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

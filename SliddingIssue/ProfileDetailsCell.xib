@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="profileCell1" id="iPr-18-xvo" customClass="ProfileDetailsCell" customModule="SliddingIssue" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="364" height="120"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="364" height="120"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.69999998807907104" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sainte-Rose" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tHa-Zs-Wfm">
+                        <rect key="frame" x="25" y="30" width="315" height="17"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                        <color key="textColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" textAlignment="center" lineBreakMode="characterWrap" numberOfLines="3" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="xMU-tG-qfL">
+                        <rect key="frame" x="25" y="48" width="315" height="64"/>
+                        <string key="text">This app is a wonderful system for selling your kids' clothes! It's really convenient, as they make labels available to purchase from your earnings. </string>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="14"/>
+                        <color key="textColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Little Mairmaid" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eHh-c3-Xn4">
+                        <rect key="frame" x="25" y="8" width="315" height="22"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="18"/>
+                        <color key="textColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="tHa-Zs-Wfm" firstAttribute="top" secondItem="eHh-c3-Xn4" secondAttribute="bottom" id="9sR-nw-535"/>
+                <constraint firstItem="xMU-tG-qfL" firstAttribute="top" secondItem="tHa-Zs-Wfm" secondAttribute="bottom" constant="1" id="AXU-sv-275"/>
+                <constraint firstItem="tHa-Zs-Wfm" firstAttribute="leading" secondItem="iPr-18-xvo" secondAttribute="leading" constant="25" id="K1W-i5-hol"/>
+                <constraint firstAttribute="trailing" secondItem="tHa-Zs-Wfm" secondAttribute="trailing" constant="24" id="RCW-jX-5Kx"/>
+                <constraint firstItem="eHh-c3-Xn4" firstAttribute="leading" secondItem="iPr-18-xvo" secondAttribute="leading" constant="25" id="SZl-FV-tcg"/>
+                <constraint firstAttribute="bottom" secondItem="xMU-tG-qfL" secondAttribute="bottom" constant="8" id="XA8-Oe-YbA"/>
+                <constraint firstItem="xMU-tG-qfL" firstAttribute="leading" secondItem="iPr-18-xvo" secondAttribute="leading" constant="25" id="fhP-aD-TeK"/>
+                <constraint firstItem="eHh-c3-Xn4" firstAttribute="top" secondItem="iPr-18-xvo" secondAttribute="top" constant="8" id="ta9-tS-1Dr"/>
+                <constraint firstAttribute="trailing" secondItem="xMU-tG-qfL" secondAttribute="trailing" constant="24" id="vg8-K5-t7s"/>
+                <constraint firstAttribute="trailing" secondItem="eHh-c3-Xn4" secondAttribute="trailing" constant="24" id="wvZ-es-f5G"/>
+            </constraints>
+            <size key="customSize" width="364" height="120"/>
+            <connections>
+                <outlet property="bioLbl" destination="xMU-tG-qfL" id="uUt-Lu-CSq"/>
+                <outlet property="cityLbl" destination="tHa-Zs-Wfm" id="Wdx-ot-8aT"/>
+                <outlet property="nameLbl" destination="eHh-c3-Xn4" id="FUD-RR-RCr"/>
+            </connections>
+            <point key="canvasLocation" x="36" y="89"/>
+        </collectionViewCell>
+    </objects>
+</document>
